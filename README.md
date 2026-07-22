@@ -27,7 +27,7 @@ To compile and execute the benchmark:
 nvcc -O3 -arch=sm_89 block_scaled_gemv.cu -o block_scaled_gemv.exe
 .\block_scaled_gemv.exe
 ```
-##Verification Output
+## Verification Output
 The kernel includes a host-side math verification check to ensure bit-alignment and scaling match expected values:
 
 ```
